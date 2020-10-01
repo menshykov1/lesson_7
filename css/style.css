@@ -1,0 +1,240 @@
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.inner {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
+}
+.header {
+	background: url("../img/bg.png") right 0px no-repeat;
+}
+.header__body {
+	height: 720px;
+	background: url("../img/man.png") right 162px no-repeat;
+	overflow: auto;
+}
+.header__text {
+	display: inline-block;
+	padding: 31px 0px 0px 0px;
+}
+.ofdr {
+	display: inline-block;
+	font-family: "Gilroy";
+	font-size: 52px;
+	font-weight: 500;
+	line-height: 16px;
+	text-transform: uppercase;
+
+	color: rgba(225, 225, 225, 1);
+}
+.line {
+	display: inline-block;
+	width: 2px;
+	height: 40px;
+	background-color: #89afef;
+	margin: 0px 25px 0px 25px;
+}
+.text {
+	display: inline-block;
+	font-family: "Gilroy";
+	font-weight: 500;
+	line-height: 16px;
+	color: #5d5d5d;
+	width: 175px;
+}
+.header__icon {
+	display: inline-block;
+	padding: 31px 0px 0px 0px;
+}
+.header__icon a {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 11px 0px 0px 0px;
+	margin: 0px 15px 0px 0px;
+}
+.wsap {
+	background-color: #2dd038;
+}
+.wiber {
+	background-color: #7b519d;
+}
+.telegram {
+	background-color: #5bbaf0;
+}
+.header__icon a.telegram {
+	padding: 14px 3px 0px 0px;
+}
+.wsap .header__img {
+	max-width: 100%;
+}
+.header__mail {
+	display: inline-block;
+	text-align: end;
+	margin: 0px 30px 0px 0px;
+}
+.fone a {
+	background: url("../img/fone.png") 0 4px / auto auto no-repeat;
+	padding: 0 0 0 24px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #333333;
+}
+.mail a {
+	background: url("../img/mail.png") 0 5px no-repeat;
+	padding: 0px 0px 0px 23px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	color: #333333;
+}
+.header__btn {
+	max-width: 675px;
+	height: 451px;
+	margin: 105px 0px 0px 0px;
+}
+.header__btn-call {
+	display: inline-block;
+}
+.header__btn-call a {
+	display: inline-block;
+	width: 195px;
+	height: 44px;
+	background: linear-gradient(90deg, #f6bd60 0%, #e88952 100%);
+	border-radius: 3px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #ffffff;
+	padding: 11px 0px 0px 0px;
+}
+
+.header__btn-text {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 51px;
+	color: #333333;
+	margin: 0px 0px 30px 0px;
+}
+
+.header__btn-price {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #333333;
+	margin: 0px 0px 40px 0px;
+}
+.header__btn-price span {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 31px;
+	color: #333333;
+	margin-left: 5px;
+}
+.header__btn-btn {
+	display: inline-block;
+	width: 211px;
+	height: 50px;
+	background: linear-gradient(90deg, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+	border-radius: 3px;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+}
+.header__btn-btn span {
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
